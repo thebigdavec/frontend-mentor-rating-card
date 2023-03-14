@@ -2,7 +2,7 @@
   --orange: hsl(25, 97%, 53%);
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(216, 12%, 54%);
-  --medium-dark-grey: hsl(216, 12%, 38%, 0.35);
+  --medium-dark-grey: hsl(216, 12%, 38%, 0.33);
   --dark-blue: hsl(213, 19%, 18%);
   --medium-dark-blue: hsl(213, 19%, 10%);
   --very-dark-blue: hsl(216, 12%, 8%);
@@ -32,6 +32,7 @@ body {
   place-items: center;
   padding: calc(var(--padding) / 2);
 }
+h1,
 h2 {
   font-size: 1.8rem;
   font-weight: 700;
@@ -102,6 +103,7 @@ button {
   letter-spacing: 1.5px;
   border-radius: 100px;
   transition: color 250ms ease-out, background-color 250ms ease-out;
+  font-size: 1.1rem;
 }
 button:hover,
 button:focus-visible {
