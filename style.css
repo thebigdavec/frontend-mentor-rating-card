@@ -32,7 +32,8 @@ body {
   place-items: center;
   padding: calc(var(--padding) / 2);
 }
-h1 {
+h2 {
+  font-size: 1.8rem;
   font-weight: 700;
 }
 p {
